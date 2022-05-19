@@ -1,0 +1,83 @@
+@media(max-width:770px)
+{
+    #home::before
+    {
+    width: 45rem;
+    height: 36rem;
+    }
+    #workout::before
+    {
+        width: 45rem;
+        height: 94rem;
+    }
+    #navbar
+    {
+        flex-direction: column;
+        height: 5rem;
+        width: 45rem;
+    }
+    #navbar #logo
+    {
+        margin: -1rem 0rem;
+        height: 5.1rem;
+    }
+    #navbar #logo img
+    {
+        width: 5.1rem;
+    }
+    #navbar ul
+    {
+        width: 46rem;
+        margin-left: 3rem;
+    }
+    #navbar .items
+    {
+        flex-basis: 12rem;
+    }
+    #navbar #diets
+    {
+        padding-left: 6rem;
+    }
+    h1
+    {
+        width: 45rem;
+    }
+    #workout #boxes
+    {
+        margin-right: 3rem;
+    }
+    #diet #flex
+    {
+        flex-direction: column;
+    }
+    #diet img 
+    {
+        width: 45rem;
+        height: 20rem;
+    }
+    #diet #itemscontainer 
+    {
+        margin-right: 1rem;
+    }
+    body 
+    {
+        width: 45rem;
+    }
+    #workout #boxes {
+        flex-direction: column;
+        margin: -154px 2px;
+        margin-right: 5rem;
+    }
+    #workout .items
+    {
+        margin-bottom: -7rem;
+        margin-left: 5rem;
+    }
+    #diet
+    {
+        margin-top: 18rem;
+        margin-right: 1.1rem;
+        background-color: black;
+    }
+    
+} 
